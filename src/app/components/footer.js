@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
-      <footer className="w-full bg-[#134155] text-white p-6 sm:p-12">
-        <div className="container mx-auto flex md:flex-row justify-between items-center mb-6">
+      <footer className="w-full bg-[#134155] text-white p-6 sm:p-12 text-center md:text-left">
+        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center mb-6 gap-8 md:gap-0">
             <div>
                 <h2 className="text-2xl font-bold">Explore</h2>
                 <ul>
