@@ -20,7 +20,7 @@ export default function Hero() {
             A Simpler, Smarter Way to Invest for a Secure Financial Future.
           </p>
 
-          <button className="mt-6 px-8 py-4 text-lg font-semibold rounded-lg shadow-xl bg-white text-gray-900 border-2 border-white transition duration-300 ease-in-out transform hover:scale-[1.02] hover:bg-transparent hover:text-white hover:border-white focus:outline-none focus:ring-4 focus:ring-white/50 w-full sm:w-auto">
+          <button className="mt-6 sm:px-8 sm:py-4 px-4 py-2 text-lg font-semibold rounded-lg shadow-xl bg-white text-gray-900 border-2 border-white transition duration-300 ease-in-out transform hover:scale-[1.02] hover:bg-transparent hover:text-white hover:border-white focus:outline-none focus:ring-4 focus:ring-white/50 w-full sm:w-auto">
             Book a Free Appointment
           </button>
         </div>

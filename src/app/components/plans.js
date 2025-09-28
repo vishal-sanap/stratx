@@ -37,7 +37,7 @@ export default function Plan() {
             important to note that past results do not guarantee future
             performance.
           </p>
-          <button className="w-full md:w-1/3 mt-6 px-8 py-4 text-lg font-semibold rounded-lg shadow-xl bg-transparent text-[#997851] border-2 border-[#997851] transition duration-300 ease-in-out transform hover:scale-[1.02] hover:bg-[#997851] hover:text-white hover:border-[#997851] focus:outline-none focus:ring-4 focus:ring-[#997851]/50">
+          <button className="w-full md:w-1/3 mt-6 sm:px-8 sm:py-4 px-4 py-2 text-lg font-semibold rounded-lg shadow-xl bg-transparent text-[#997851] border-2 border-[#997851] transition duration-300 ease-in-out transform hover:scale-[1.02] hover:bg-[#997851] hover:text-white hover:border-[#997851] focus:outline-none focus:ring-4 focus:ring-[#997851]/50">
           Download Brochure
         </button>
         </div>
@@ -74,7 +74,7 @@ export default function Plan() {
             important to note that past results do not guarantee future
             performance.
           </p>
-          <button className="w-full md:w-1/3 mt-6 px-8 py-4 text-lg font-semibold rounded-lg shadow-xl bg-transparent text-[#997851] border-2 border-[#997851] transition duration-300 ease-in-out transform hover:scale-[1.02] hover:bg-[#997851] hover:text-white hover:border-[#997851] focus:outline-none focus:ring-4 focus:ring-[#997851]/50">
+          <button className="w-full md:w-1/3 mt-6 sm:px-8 sm:py-4 px-4 py-2 text-lg font-semibold rounded-lg shadow-xl bg-transparent text-[#997851] border-2 border-[#997851] transition duration-300 ease-in-out transform hover:scale-[1.02] hover:bg-[#997851] hover:text-white hover:border-[#997851] focus:outline-none focus:ring-4 focus:ring-[#997851]/50">
           Download Brochure
         </button>
         </div>
