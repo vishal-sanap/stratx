@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:wght@100..900&display=swap');
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -22,5 +22,15 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lora', 'Work Sans', sans-serif;
+}
+
+/* Target all headings to use Lora */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+}
+
+/* You might want to explicitly set paragraphs, though they inherit from body */
+p {
+  font-family: 'Work Sans', sans-serif;
 }

@@ -1,12 +1,12 @@
 export default function Numbers() {
   return (
-    <div className="w-full min-h-[100vh] flex flex-col md:flex-row text-white p-8 sm:p-12 md:p-24 gap-14 bg-[#FAF7F3] text-center md:text-left">
+    <div className="w-full min-h-[100vh] flex flex-col md:flex-row text-white p-8 sm:p-12 md:p-16 gap-4 sm:gap-14 bg-[#FAF7F3] text-center md:text-left">
       <div className="w-full md:w-1/2">
         <div className="flex flex-col gap-6">
-          <h2 className="text-2xl font-bold text-[#B27A50] text-left">Numbers</h2>
-          <p className="text-5xl sm:text-6xl font-extrabold leading-tight text-[#134155] text-left">
+          <p className="text-2xl font-bold text-[#B27A50] text-left">Numbers</p>
+          <h2 className="text-5xl sm:text-6xl font-extrabold leading-tight text-[#134155] text-left">
             Our figures grow by the year
-          </p>
+          </h2>
         </div>
       </div>
       <div className="w-full md:w-1/2 flex flex-col gap-6">

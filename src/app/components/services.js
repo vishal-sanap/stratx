@@ -1,13 +1,13 @@
 export default function Service() {
   return (
-    <div className="w-full min-h-[100vh] text-white p-8 sm:p-12 md:p-24 gap-14 bg-[#FAF7F3] flex flex-col text-center md:text-left">
+    <section id="services" className="w-full min-h-[100vh] text-white p-8 sm:p-12 md:p-16 gap-4 sm:gap-14 bg-[#FAF7F3] flex flex-col text-center md:text-left">
       <div className="w-full">
         <div className="flex flex-col gap-6">
-          <h2 className="text-2xl font-bold text-[#B27A50] text-left">Services</h2>
+          <p className="text-2xl font-bold text-[#B27A50] text-left">Services</p>
 
-          <p className="text-5xl sm:text-6xl font-extrabold leading-tight text-[#134155] text-left">
+          <h2 className="text-5xl sm:text-6xl font-extrabold leading-tight text-[#134155] text-left">
             We offer a wide variety of financial services.
-          </p>
+          </h2>
         </div>
       </div>
 
@@ -28,6 +28,6 @@ export default function Service() {
             <p className="text-[#134155] wrap text-left">We help you plan and manage your investments with clarity and confidence. From monthly income plans to long-term portfolio growth, our structured approach ensures your capital is working towards your goals with minimized risk and maximized potential.</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

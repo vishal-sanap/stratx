@@ -3,17 +3,20 @@ import HeroImage from "../../../public/images/hero.jpg";
 
 export default function Hero() {
   return (
-    <div className="w-full relative min-h-[100vh] flex items-center justify-start text-white p-8 sm:p-12 text-center sm:text-left">
+    <section id="home" className="w-full relative min-h-[100vh] flex items-center justify-start text-white p-8 sm:p-12 text-center sm:text-left">
       <Image
         src={HeroImage}
         alt="hero"
         fill
         style={{ objectFit: "cover", zIndex: -1 }}
       />
-      <div className="container mx-auto">
+
+      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="container mx-auto z-2">
         <div className="max-w-3xl space-y-6 z-10">
-          <h1 className="text-4xl sm:text-6xl font-extrabold leading-tight text-left">
-            StratXCapital is a Private Investment Firm Focused on Monthly Returns
+          <h1 className="text-4xl sm:text-6xl font-semibold leading-tight text-left font-lora">
+            StratXCapital is a Private Investment Firm Focused on Monthly
+            Returns
           </h1>
 
           <p className="text-xl sm:text-2xl text-left">
@@ -25,6 +28,6 @@ export default function Hero() {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
