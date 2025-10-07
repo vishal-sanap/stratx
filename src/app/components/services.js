@@ -1,6 +1,6 @@
 export default function Service() {
   return (
-    <section id="services" className="w-full min-h-[100vh] text-white p-8 sm:p-12 md:p-16 gap-4 sm:gap-14 bg-[#FAF7F3] flex flex-col text-center md:text-left">
+    <section id="services" className="w-full text-white p-8 sm:p-12 md:p-16 gap-4 sm:gap-14 bg-[#FAF7F3] flex flex-col text-center md:text-left">
       <div className="w-full">
         <div className="flex flex-col gap-6">
           <p className="text-2xl font-bold text-[#B27A50] text-left">Services</p>

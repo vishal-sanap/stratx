@@ -1,6 +1,6 @@
 export default function Plan() {
   return (
-    <div className="w-full min-h-[100vh] text-white p-8 sm:p-12 md:p-16 gap-4 sm:gap-14 bg-[#FAF7F3] flex flex-col text-center md:text-left">
+    <div id="plans" className="w-full text-white p-8 sm:p-12 md:p-16 gap-4 sm:gap-14 bg-[#FAF7F3] flex flex-col text-center md:text-left">
       <div className="w-full">
         <div className="flex flex-col gap-6"></div>
         <p className="text-2xl font-bold text-[#B27A50] text-left">Plans</p>
@@ -9,7 +9,7 @@ export default function Plan() {
         </h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 sm:gap-6 mt-12">
-        <div>
+        <div id="czip">
           <p className="text-2xl font-bold text-[#B27A50] text-left">
             CZIP - Czech Passive Income Plan
           </p>
@@ -41,7 +41,7 @@ export default function Plan() {
           Download Brochure
         </button>
         </div>
-        <div>
+        <div id="ltwp">
           <p className="text-2xl font-bold text-[#B27A50] text-left">
             LTWP - Long Term Wealth Planning
           </p>
