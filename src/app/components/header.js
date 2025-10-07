@@ -2,8 +2,6 @@
 import Link from 'next/link';
 import { useState } from 'react';
 
-// Define your navigation links
-// NOTE: hrefs are changed to use section IDs (#section-id)
 const navItems = [
   { name: 'Home', href: '#home' },
   { name: 'Services', href: '#services' },
@@ -17,7 +15,7 @@ export default function Header() {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <header className="absolute top-0 left-0 z-50 w-full bg-transparent p-4 sm:p-6">
+    <header className="absolute top-0 left-0 z-50 w-full bg-transparent p-4 sm:p-6 ">
       <div className="container mx-auto flex items-center justify-between text-white">
         
         <div className="flex items-center z-50"> 

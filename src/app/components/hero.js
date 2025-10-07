@@ -3,7 +3,7 @@ import HeroImage from "../../../public/images/hero.jpg";
 
 export default function Hero() {
   return (
-    <section id="home" className="w-full relative min-h-[100vh] flex items-center justify-start text-white p-8 sm:p-12 text-center sm:text-left">
+    <section id="home" className="w-full min-h-[100vh] flex items-center justify-start text-white p-8 sm:p-12 text-center sm:text-left">
       <Image
         src={HeroImage}
         alt="hero"
