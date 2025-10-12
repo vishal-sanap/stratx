@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/40"></div>
       <div className="container mx-auto z-2">
         <div className="max-w-3xl space-y-6 z-10">
-          <h1 className="text-4xl sm:text-6xl font-semibold leading-tight text-left font-lora">
+          <h1 className="text-4xl sm:text-6xl font-semibold leading-tight text-left font-heading">
             StratXCapital is a Private Investment Firm Focused on Monthly
             Returns
           </h1>

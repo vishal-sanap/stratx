@@ -7,7 +7,7 @@ export default function About() {
           
           <p className="text-2xl font-bold text-[#B27A50] text-left">About Us</p>
           
-          <p className="text-xl sm:text-2xl md:text-xl text-[#134155] text-left">
+          <p className="text-xl font-semibold sm:text-2xl md:text-xl text-[#134155] text-left">
             StratX Capital is a boutique investment and wealth management company
             specialising in alternative, market-driven strategies. We focus on
             delivering consistent monthly returns through structured trading
@@ -24,13 +24,13 @@ export default function About() {
         
         <p className="text-2xl font-bold text-[#B27A50] text-left">What We do</p>
         
-        <h2 className="text-3xl sm:text-6xl font-500 leading-tight text-[#134155] text-left">
+        <h2 className="text-3xl sm:text-6xl font-semibold leading-tight text-[#134155] text-left">
           We provide private investors with access to exclusive, actively
           managed investment programs focused on generating consistent monthly
           income.
         </h2>
         
-        <p className="text-xl sm:text-2xl md:text-xl text-[#134155] text-left">
+        <p className="text-xl font-semibold sm:text-2xl md:text-xl text-[#134155] text-left">
           We specialize in capital growth and income strategies,
           designed to deliver high risk-adjusted returns with a disciplined,
           professional approach. Our model blends modern financial tools with
