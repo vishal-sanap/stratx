@@ -1,7 +1,8 @@
 import Image from "next/image";
 import HeroImage from "../../../public/images/hero.jpg";
+import LeadFormModal from "./formModal";
 
-export default function Hero() {
+export default function Hero({ openModal }) {
   return (
     <section id="home" className="w-full min-h-[100vh] flex items-center justify-start text-white p-8 sm:p-12 text-center sm:text-left">
       <Image
@@ -23,7 +24,9 @@ export default function Hero() {
             A Simpler, Smarter Way to Invest.
           </p>
 
-          <button className="mt-6 sm:px-8 sm:py-4 px-4 py-2 text-lg font-semibold rounded-lg shadow-xl bg-white text-gray-900 border-2 border-white transition duration-300 ease-in-out transform hover:scale-[1.02] hover:bg-transparent hover:text-white hover:border-white focus:outline-none focus:ring-4 focus:ring-white/50 w-full sm:w-auto">
+          <button 
+            onClick={openModal}
+            className="mt-6 sm:px-8 sm:py-4 px-4 py-2 text-lg font-semibold rounded-lg shadow-xl bg-white text-gray-900 border-2 border-white transition duration-300 ease-in-out transform hover:scale-[1.02] hover:bg-transparent hover:text-white hover:border-white focus:outline-none focus:ring-4 focus:ring-white/50 w-full sm:w-auto">
             Book a Free Appointment
           </button>
         </div>
