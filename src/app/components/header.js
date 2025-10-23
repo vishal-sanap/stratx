@@ -1,13 +1,13 @@
 "use client";
-import Image from 'next/image';
-import Link from 'next/link';
-import { useState } from 'react';
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
 
 const navItems = [
-  { name: 'Home', href: '#home' },
-  { name: 'Services', href: '#services' },
-  { name: 'About Us', href: '#about' },
-  { name: 'Contact Us', href: '#contact' },
+  { name: "Home", href: "#home" },
+  { name: "Services", href: "#services" },
+  { name: "About Us", href: "#about" },
+  { name: "Contact Us", href: "#contact" },
 ];
 
 export default function Header() {
@@ -18,10 +18,18 @@ export default function Header() {
   return (
     <header className="absolute top-0 left-0 z-50 w-full bg-transparent p-4 sm:p-6 ">
       <div className="container mx-auto flex items-center justify-between text-white">
-        
-        <div className="flex items-center z-50"> 
-          <Link href="#home" className="text-2xl font-bold hover:text-gray-300 transition duration-300">
-            <Image width={50} height={50} src="./logo-white.svg" alt="logo"/>
+        <div className="flex items-center z-50">
+          <Link
+            href="#home"
+            className="text-2xl font-bold hover:text-gray-300 transition duration-300 flex items-center"
+          >
+            <Image
+              src="/logo-white.svg"
+              alt="logo"
+              width={40}
+              height={40}
+              className="w-8 h-8 md:w-10 md:h-10 object-contain"
+            />
           </Link>
         </div>
 
@@ -40,27 +48,39 @@ export default function Header() {
         <button
           onClick={toggleMenu}
           aria-label="Toggle Menu"
-          className="md:hidden relative z-50 p-3 rounded-lg bg-transparent 
-                     hover:bg-gray-800/50 transition duration-300 group"
+          className="md:hidden relative z-50 p-2 rounded-lg bg-transparent 
+             hover:bg-gray-800/50 transition duration-300 group flex items-center justify-center"
         >
           <div className="flex flex-col space-y-1.5 w-6 h-6">
-            <span className={`block h-0.5 w-full bg-white transform transition duration-300 ease-in-out 
-                               ${isMenuOpen ? 'rotate-45 translate-y-2' : ''} group-hover:bg-gray-300`}></span>
-            
-            <span className={`block h-0.5 w-full bg-white transform transition duration-300 ease-in-out 
-                               ${isMenuOpen ? 'opacity-0' : ''} group-hover:bg-gray-300`}></span>
-            
-            <span className={`block h-0.5 w-full bg-white transform transition duration-300 ease-in-out 
-                               ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''} group-hover:bg-gray-300`}></span>
+            <span
+              className={`block h-0.5 w-full bg-white transform transition duration-300 ease-in-out 
+                               ${
+                                 isMenuOpen ? "rotate-45 translate-y-2" : ""
+                               } group-hover:bg-gray-300`}
+            ></span>
+
+            <span
+              className={`block h-0.5 w-full bg-white transform transition duration-300 ease-in-out 
+                               ${
+                                 isMenuOpen ? "opacity-0" : ""
+                               } group-hover:bg-gray-300`}
+            ></span>
+
+            <span
+              className={`block h-0.5 w-full bg-white transform transition duration-300 ease-in-out 
+                               ${
+                                 isMenuOpen ? "-rotate-45 -translate-y-2" : ""
+                               } group-hover:bg-gray-300`}
+            ></span>
           </div>
         </button>
       </div>
 
-      <div 
+      <div
         className={`md:hidden fixed top-0 left-0 w-full h-screen bg-black/90 
                    flex flex-col items-center pt-24 space-y-8 
                    transform transition-transform duration-300 ease-in-out z-40
-                   ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
+                   ${isMenuOpen ? "translate-x-0" : "translate-x-full"}`}
       >
         <nav className="flex flex-col space-y-8">
           {navItems.map((item) => (

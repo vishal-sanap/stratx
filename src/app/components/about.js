@@ -24,11 +24,11 @@ export default function About() {
         
         <p className="text-2xl font-bold text-[#B27A50] text-left">What We do</p>
         
-        <h2 className="text-3xl sm:text-6xl font-semibold leading-tight text-[#134155] text-left">
+        <p className="text-xl sm:text-2xl font-semibold md:text-xl text-[#134155] text-left">
           We provide private investors with access to exclusive, actively
           managed investment programs focused on generating consistent monthly
           income.
-        </h2>
+        </p>
         
         <p className="text-xl font-semibold sm:text-2xl md:text-xl text-[#134155] text-left">
           We specialize in capital growth and income strategies,

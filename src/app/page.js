@@ -16,8 +16,8 @@ export default function Home() {
           <Hero />
         </div>
         <About />
-        <Service />
         <Plan />
+        <Service />
         <Numbers />
         <Footer />
     </div>
