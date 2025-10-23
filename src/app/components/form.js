@@ -148,7 +148,7 @@ export default function LeadForm() {
       <div className="mb-2">
         <ReCAPTCHA
           ref={recaptchaRef}
-          sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+          sitekey={process.env.RECAPTCHA_SITE_KEY}
           onChange={(token) => setValue("recaptchaToken", token)}
           theme="dark"
         />
